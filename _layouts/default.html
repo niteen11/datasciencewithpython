@@ -23,7 +23,8 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
-        <p class="view"> [Link to another page](another-page.html) </p>
+        <small><a href="{{another-page.html}}">{{another-page.html}}</a></small>
+        
         {% endif %}
 
         {% if site.github.is_user_page %}
