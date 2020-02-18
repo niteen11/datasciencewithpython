@@ -4,7 +4,7 @@ layout: default
 
 <nav>      
   <a href="/">Home</a>
-  <a href="/blog/">Blog</a>
+  <a href="/blog/{{another-page.html}}">Blog</a>
 </nav>
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
