@@ -23,7 +23,12 @@
 
         <p align="center">{{ site.description | default: site.github.project_tagline }}</p>
         
-         <small><a href="{{another-page.html}}">{{another-page.html}}</a></small>
+        <nav>      
+          <a href="/">Home</a>
+          <a href="/blog/">Blog</a>
+         </nav>
+        
+        <small><a href="{{another-page.html}}">{{another-page.html}}</a></small>
         
         <h2>{{ site.docs_list_title }}</h2>
         <ul>
@@ -31,12 +36,7 @@
               <li><a href="{{ item.url }}">{{ item.title }}</a></li>
            {% endfor %}
         </ul>
-        
-        <nav>      
-          <a href="/">Home</a>
-          <a href="/blog/">Blog</a>
-         </nav>
-        
+                      
         {% if site.github.is_project_page %}
         <small><a href="{{another-page.html}}">{{another-page.html}}</a></small>
         
