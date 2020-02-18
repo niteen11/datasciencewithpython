@@ -26,12 +26,12 @@
         
         <h2>{{ site.data.samplelist.docs_list_title }}</h2>
         <ul>
-           {% for item in site.data.samplelist.docs %}
+           {% for item in site.data._config.docs %}
               <li><a href="{{ item.url }}">{{ item.title }}</a></li>
            {% endfor %}
         </ul>
         
-        {% if site.github.is_project_page %}
+        {% if site.github.is_project_page %}_config
         <small><a href="{{another-page.html}}">{{another-page.html}}</a></small>
         
         {% endif %}
