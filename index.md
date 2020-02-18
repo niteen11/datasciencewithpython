@@ -30,6 +30,12 @@ var fun = function lang(l) {
 }
 ```
 
+```python
+
+print("testing ")
+
+```
+
 ```ruby
 # Ruby code with syntax highlighting
 GitHubPages::Dependencies.gems.each do |gem, version|
