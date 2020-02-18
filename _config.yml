@@ -4,3 +4,7 @@ description: Democratizing Data Science With Python
 show_downloads: False
 google_analytics:
 theme: jekyll-theme-minimal
+docs_list_title: Documentation
+docs:
+- title: Introduction
+  url: introduction.html
