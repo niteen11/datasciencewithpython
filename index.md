@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<nav>      
+  <a href="/">Home</a>
+  <a href="/blog/">Blog</a>
+</nav>
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
